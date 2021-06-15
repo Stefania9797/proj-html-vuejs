@@ -255,3 +255,24 @@ a {
 .third-section .buttons input:hover {
   background-color: #404040;
 }
+
+.blog-flex {
+  display: flex;
+  padding-top: 40px;
+}
+.blog-flex .left-blog {
+  width: 70%;
+}
+.blog-flex .left-blog img {
+  width: 100%;
+}
+.blog-flex .left-blog .blog-info {
+  display: flex;
+}
+.blog-flex .right-blog {
+  width: 30%;
+  margin-left: 20px;
+}
+.blog-flex .right-blog .twitter-posts {
+  display: flex;
+}
