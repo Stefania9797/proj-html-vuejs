@@ -9,94 +9,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <!-- Prima barra di navigazione -->
-        <nav class="top-nav">
-            <div class="container">
-                <span>Lorem ipsum dolor sit amet.</span>
-                <a href="">sign in</a>
-                <a href="">about us</a>
-                <a href="">contact us</a>
-                <a href=""> buy now</a>
-            </div>
-        <!-- /Prima barra di navigazione -->
-        </nav>
-        <!-- logo -->
-        <div class="container">
-            <div class="logo">
-                <img src="./dist/img/logo-default-slim.png" alt="">
-            </div>
-        </div>
-        <!-- /logo -->
-        <!--seconda nav  -->
-            <nav class="bottom-nav">
-                <div class="container flex-container">
-                    <div class="links">
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                    </div>
-                    <div class="search">
-                        <i class="fas fa-search"></i>
-                    </div>
+    <div id="root">
+        <!-- Header -->
+        <header>
+            <!-- Prima barra di navigazione -->
+            <nav class="top-nav">
+                <div class="container">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <!-- link inseriti con vue -->
+                    <a href="" v-for="link in topLinks">{{link.item}}</a>
                 </div>
+            <!-- /Prima barra di navigazione -->
             </nav>
-        <!--/seconda nav  -->
-    </header>
-    <!-- /Header -->
-    <!-- main -->
-    <main>
-        <!-- Prima sezione: articoli -->
-        <div class="container">
-            <div class="articles first-row">
-                <div class="article first-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+            <!-- logo -->
+            <div class="container">
+                <div class="logo">
+                    <img src="./dist/img/logo-default-slim.png" alt="">
+                </div>
+            </div>
+            <!-- /logo -->
+            <!--seconda nav  -->
+                <nav class="bottom-nav">
+                    <div class="container flex-container">
+                        <div class="links">
+                            <a href="" v-for="link in bottomLinks">{{link.item}}</a>
+                        </div>
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </nav>
+            <!--/seconda nav  -->
+        </header>
+        <!-- /Header -->
+        <!-- main -->
+        <main>
+            <!-- Prima sezione: articoli -->
+            <div class="container">
+                <div class="articles first-row">
+                    <div class="article first-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="article second-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="article third-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="article second-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+                <div class="articles second-row">
+                    <div class="article fourth-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="article third-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+                    <div class="article fifth-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                    <div class="article sixth-art">
+                        <div class="article-info">
+                            <span>lorem</span>
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="articles second-row">
-                <div class="article fourth-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                    </div>
-                </div>
-                <div class="article fifth-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                    </div>
-                </div>
-                <div class="article sixth-art">
-                    <div class="article-info">
-                        <span>lorem</span>
-                        <h3>Lorem ipsum dolor sit amet.</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/ Prima sezione: articoli -->
-    </main>
-    <!-- /main -->
+            <!--/ Prima sezione: articoli -->
+        </main>
+        <!-- /main -->
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="./dist/js/app.js"></script>
 </body>
