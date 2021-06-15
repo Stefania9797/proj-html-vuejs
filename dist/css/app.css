@@ -64,6 +64,11 @@ a {
   justify-content: space-between;
 }
 
+.first-section {
+  background-color: #f7f7f7;
+  padding-bottom: 20px;
+}
+
 .article {
   margin: 10px 15px 10px 0;
   height: 250px;
@@ -124,4 +129,91 @@ a {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.posts {
+  display: flex;
+  padding-top: 30px;
+}
+.posts h3 {
+  text-transform: uppercase;
+}
+.posts span {
+  color: #b7b7b7;
+}
+.posts .popular-posts, .posts .recent-posts, .posts .featured-posts {
+  width: calc(100% / 3);
+}
+.posts .popular-posts, .posts .recent-posts {
+  margin-right: 30px;
+}
+.posts .post-info {
+  border-bottom: 2px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 15px 0;
+}
+.posts .post-info .post-text {
+  margin-left: 10px;
+}
+.posts .post-text h4 {
+  font-weight: 100;
+}
+.posts .post-text span {
+  color: #777777;
+}
+.posts .post-img {
+  width: 60px;
+}
+.posts .post-img img {
+  width: 100%;
+}
+.posts .featured-article {
+  margin-top: 10px;
+  width: 100%;
+  background-image: url(../img/blog-66.jpg);
+  background-position: bottom;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}
+.posts .featured-article h4 {
+  color: white;
+}
+.posts .featured-article span {
+  background-color: #0088CC;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.posts .featured-article .article-info {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.posts .featured-article::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.posts .author-info {
+  display: flex;
+}
+.posts .featured-author .author-bio {
+  padding: 10px;
+}
+.posts .featured-author .author-bio p {
+  color: #777777;
+}
+.posts .featured-author h3 {
+  margin: 15px 0px;
+}
+.posts .featured-author img {
+  width: 100px;
 }

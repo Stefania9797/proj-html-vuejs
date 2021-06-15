@@ -1,0 +1,47 @@
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+.first-section{
+    background-color: $first-sec-main-bg;
+    padding-bottom: 20px;
+}
+.article{
+    margin: 10px 15px 10px 0;
+    height: 250px;
+    width: calc(100% / 3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    .article-info{
+        @include article-title-style
+    }
+    span{
+        @include category-style
+    }
+    h3{
+        color: white;
+    }
+}
+.first-art{
+    background-image: url(../img/blog-46.jpg)
+}
+.second-art{
+    background-image: url(../img/blog-47.jpg)
+}
+.third-art{
+    background-image: url(../img/blog-48.jpg);
+    margin-right: 0;
+}
+.fourth-art{
+    background-image: url(../img/blog-49.jpg)
+}.fifth-art{
+    background-image: url(../img/blog-50.jpg)
+}.sixth-art{
+    background-image: url(../img/blog-51.jpg);
+    margin-right: 0;
+}
+.article::after{
+    @include overlay
+}
