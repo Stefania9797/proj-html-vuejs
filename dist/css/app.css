@@ -11,7 +11,7 @@ a {
 }
 
 .container {
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 
@@ -57,4 +57,71 @@ a {
   border-top: 1px solid #e2e2e2;
   border-bottom: 1px solid #e2e2e2;
   padding: 15px 0;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  margin: 10px 15px 10px 0;
+  height: 250px;
+  width: calc(100% / 3);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.article .article-info {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+.article span {
+  background-color: #0088CC;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.article h3 {
+  color: white;
+}
+
+.first-art {
+  background-image: url(../img/blog-46.jpg);
+}
+
+.second-art {
+  background-image: url(../img/blog-47.jpg);
+}
+
+.third-art {
+  background-image: url(../img/blog-48.jpg);
+  margin-right: 0;
+}
+
+.fourth-art {
+  background-image: url(../img/blog-49.jpg);
+}
+
+.fifth-art {
+  background-image: url(../img/blog-50.jpg);
+}
+
+.sixth-art {
+  background-image: url(../img/blog-51.jpg);
+  margin-right: 0;
+}
+
+.article::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
