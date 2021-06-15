@@ -84,6 +84,13 @@ a {
   bottom: 0;
   padding: 20px;
 }
+.article .article-info p {
+  color: #b7b7b7;
+  display: none;
+}
+.article:hover .article-info p {
+  display: block;
+}
 .article span {
   background-color: #0088CC;
   color: white;

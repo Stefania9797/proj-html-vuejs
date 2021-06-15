@@ -15,7 +15,18 @@
     background-repeat: no-repeat;
     position: relative;
     .article-info{
-        @include article-title-style
+        @include article-title-style;
+        p{
+            color:#b7b7b7;
+            display: none;
+        }
+    }
+    &:hover{
+        .article-info{
+            p{
+                display: block;
+            }
+        }
     }
     span{
         @include category-style
