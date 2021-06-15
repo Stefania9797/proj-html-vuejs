@@ -1,0 +1,17 @@
+@import "partials/common";
+@import "partials/variables";
+.top-nav{
+    background-color: $primary-blue;
+    color: white;
+    span{
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    a{
+        color: white;
+        display: inline-block;
+        margin: 10px;
+        text-transform: uppercase;
+    }
+}
