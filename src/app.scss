@@ -1,17 +1,29 @@
 @import "partials/common";
 @import "partials/variables";
-.top-nav{
-    background-color: $primary-blue;
-    color: white;
-    span{
-        font-size: 10px;
-        display: inline-block;
-        vertical-align: middle;
+@import "partials/top-nav";
+.logo{
+    margin: 20px 0;
+    img{
+        width: 10%;
     }
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
     a{
-        color: white;
-        display: inline-block;
-        margin: 10px;
         text-transform: uppercase;
+        color: black;
+        font-weight: 600;
+        margin-right: 16px;
+        font-size: 13px;
+    &:hover{
+        color: $primary-blue;
     }
+}
+}
+.bottom-nav{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 15px 0;
+
 }

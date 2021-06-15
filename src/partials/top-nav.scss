@@ -1,0 +1,15 @@
+.top-nav{
+    background-color: $primary-blue;
+    color: white;
+    span{
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    a{
+        color: white;
+        margin: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+}
