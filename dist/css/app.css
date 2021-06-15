@@ -217,3 +217,34 @@ a {
 .posts .featured-author img {
   width: 100px;
 }
+
+.third-section {
+  background-color: #0074AD;
+  margin-top: 20px;
+}
+.third-section .buttons {
+  padding: 20px 20px 20px 0;
+  display: flex;
+  align-items: center;
+}
+.third-section .buttons .button {
+  width: calc(100% / 6);
+  text-align: center;
+}
+.third-section .buttons i {
+  color: #444444;
+}
+.third-section .buttons i:hover {
+  color: black;
+}
+.third-section .buttons input {
+  border-style: none;
+  background-color: #212529;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  padding: 10px 50px;
+}
+.third-section .buttons input:hover {
+  background-color: #404040;
+}
