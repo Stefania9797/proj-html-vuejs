@@ -266,9 +266,13 @@ a {
 }
 .blog-flex .left-blog .blog-info {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 .blog-flex .left-blog img {
   width: 100%;
+}
+.blog-flex .left-blog .blog-img {
+  display: flex;
 }
 .blog-flex .left-blog .blog-text {
   margin-left: 20px;

@@ -33,11 +33,15 @@
     .left-blog{
         .blog-info{
             margin-top: 20px;
+            margin-bottom: 40px;
         }
         width: 70%;
         margin-right: 30px;
         img{
             width: 100%;
+        }
+        .blog-img{
+            display: flex;
         }
         .blog-text{
             margin-left: 20px;
