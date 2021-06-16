@@ -71,10 +71,32 @@ footer{
         text-transform: uppercase;
         color: white;
         font-weight: 600;
+        padding-bottom: 20px;
     }
     background-color: $button-color;
     .footer-top{
         display: flex;
         padding-top: 60px;
+        .about-footer{
+            p{
+                color: $text-color;
+                padding-bottom: 20px;
+            }
+            a{
+                color: white;
+                font-size: 10px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+        .recent-posts-footer{
+            .recent-content{
+                display: flex;
+            }
+            img{
+                width: 75%;
+                border-radius: 50%;
+            }
+        }
     }
 }
