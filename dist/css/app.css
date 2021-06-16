@@ -399,6 +399,9 @@ footer {
   position: relative;
   background-color: #212529;
 }
+footer .about-footer, footer .recent-posts-footer, footer .recent-comments-footer {
+  margin-right: 50px;
+}
 footer .get-in-touch-container {
   position: absolute;
   top: -8px;
@@ -444,9 +447,21 @@ footer .footer-top .about-footer a {
   font-weight: 600;
 }
 footer .footer-top .recent-posts-footer .recent-content {
+  padding-bottom: 15px;
   display: flex;
 }
+footer .footer-top .recent-posts-footer .recent-content span {
+  color: #777777;
+}
+footer .footer-top .recent-posts-footer .recent-content h4 {
+  color: #b7b7b7;
+  font-weight: 100;
+}
+footer .footer-top .recent-posts-footer .recent-content .footer-date {
+  padding: 10px 0;
+  font-size: 13px;
+}
 footer .footer-top .recent-posts-footer img {
-  width: 75%;
+  width: 80%;
   border-radius: 50%;
 }

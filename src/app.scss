@@ -42,6 +42,9 @@
     }
 }
 footer{
+    .about-footer, .recent-posts-footer , .recent-comments-footer{
+        margin-right: 50px;
+    }
     position: relative;
     .get-in-touch-container{
         position: absolute;
@@ -91,10 +94,22 @@ footer{
         }
         .recent-posts-footer{
             .recent-content{
+                padding-bottom: 15px;
                 display: flex;
+                span{
+                    color: $text-color;
+                }
+                h4{
+                    color: #b7b7b7;
+                    font-weight: 100;
+                }
+                .footer-date{
+                    padding: 10px 0;
+                    font-size: 13px;
+                }
             }
             img{
-                width: 75%;
+                width: 80%;
                 border-radius: 50%;
             }
         }
