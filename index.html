@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="./dist/css/app.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="root">
@@ -628,7 +632,9 @@
         <!-- Footer -->
         <footer>
             <div class="container">
-                <span>Get in touch</span>
+                <div class="get-in-touch-container">
+                    <span id="get-in-touch">Get in touch</span>
+                </div>
                 <!-- footer top -->
                 <div class="footer-top">
                     <!-- about the blog -->
@@ -642,21 +648,94 @@
                     <!-- recent posts -->
                     <div class="recent-posts-footer">
                         <h5>recent posts</h5>
-                        <!-- post img -->
-                        <div class="footer-img">
-                            <img src="./dist/img/our-office-4-square.jpg" alt="">
+                        <div class="recent-content">
+                            <!-- post img -->
+                            <div class="footer-img">
+                                <img src="./dist/img/our-office-4-square.jpg" alt="">
+                            </div>
+                            <!-- / post img -->
+                            <!-- post description -->
+                            <div class="footer-text">
+                                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                                <div class="footer-date">
+                                    <span>12:52 AM Dec 19th</span>
+                                </div>
+                            </div>
                         </div>
-                        <!-- / post img -->
-                        <!-- post description -->
-                        <div class="footer-text">
-                            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-                            <div class="footer-date">
-                                <span>12:52 AM Dec 19th</span>
+                        <div class="recent-content">
+                            <!-- post img -->
+                            <div class="footer-img">
+                                <img src="./dist/img/our-office-5-square.jpg" alt="">
+                            </div>
+                            <!-- / post img -->
+                            <!-- post description -->
+                            <div class="footer-text">
+                                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                                <div class="footer-date">
+                                    <span>12:52 AM Dec 19th</span>
+                                </div>
                             </div>
                         </div>
                         <!-- / post description -->
                     </div>
                     <!-- / recent posts -->
+                    <div class="recent-comments-footer">
+                        <h5>recent comments</h5>
+                        <div class="recent-comment">
+                            <!-- comment details -->
+                            <p>
+                                <i class="fas fa-angle-right"></i>
+                                <span class="name">
+                                    John doe
+                                </span>
+                                commented on 
+                                <span class="art-title-footer">
+                                    Lorem ipsum dolor sit.
+                                </span>
+                            </p>
+                            <!-- / comment details -->
+                        </div>
+                        <!-- comment date -->
+                        <div class="recent-posts-date">
+                            <p>12:55 AM Dec 19th</p>
+                        </div>
+                        <!-- / comment date -->
+                        <div class="recent-comment">
+                            <!-- comment details -->
+                            <p>
+                                <i class="fas fa-angle-right"></i>
+                                <span class="name">
+                                    John doe
+                                </span>
+                                commented on 
+                                <span class="art-title-footer">
+                                    Lorem ipsum dolor sit.
+                                </span>
+                            </p>
+                            <!-- / comment details -->
+                        </div>
+                        <!-- comment date -->
+                        <div class="recent-posts-date">
+                            <p>12:55 AM Dec 19th</p>
+                        </div>
+                        <!-- / comment date -->
+                    </div>
+                    <div class="categories-footer">
+                        <h5>Categories</h5>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                        <a href="">lorem</a>
+                    </div>
                 </div>
                 <!-- / footer top -->
             </div>

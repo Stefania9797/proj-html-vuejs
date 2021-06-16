@@ -42,8 +42,39 @@
     }
 }
 footer{
+    position: relative;
+    .get-in-touch-container{
+        position: absolute;
+        top: -8px;
+    }
+    #get-in-touch{
+        position: relative;
+        padding: 5px;
+        color: white;
+        background-color: $primary-blue;
+        font-family: 'Architects Daughter', cursive;
+        &::before{
+            content:'';
+            width: 0;
+            height: 0;
+            border-top: 12px solid transparent;
+            border-right: 12px solid $secondary-blue;
+            border-bottom: 2px solid transparent;
+            right: 100%;
+            top: 0%;
+            transform: rotate(355deg);
+            position: absolute;
+            clear: both;
+        }
+    }
+    h5{
+        text-transform: uppercase;
+        color: white;
+        font-weight: 600;
+    }
     background-color: $button-color;
     .footer-top{
         display: flex;
+        padding-top: 60px;
     }
 }
