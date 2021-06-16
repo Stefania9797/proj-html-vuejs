@@ -28,3 +28,22 @@
 @import "partials/second-main-section.scss";
 @import "partials/buttons.scss";
 @import "partials/blog-section.scss";
+.pages{
+    text-align: end;
+    a{
+        color: $primary-blue;
+        padding: 6px;
+        margin: -3px;
+        border: 2px solid $light-grey-border;
+        &:hover{
+            color: white;
+            background-color: $secondary-blue;
+        }
+    }
+}
+footer{
+    background-color: $button-color;
+    .footer-top{
+        display: flex;
+    }
+}

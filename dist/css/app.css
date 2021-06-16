@@ -258,7 +258,7 @@ a {
 
 .blog-flex {
   display: flex;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 .blog-flex .left-blog {
   width: 70%;
@@ -379,4 +379,25 @@ a {
 }
 .blog-flex .right-blog .photo img {
   width: 100%;
+}
+
+.pages {
+  text-align: end;
+}
+.pages a {
+  color: #0088CC;
+  padding: 6px;
+  margin: -3px;
+  border: 2px solid #ededed;
+}
+.pages a:hover {
+  color: white;
+  background-color: #0074AD;
+}
+
+footer {
+  background-color: #212529;
+}
+footer .footer-top {
+  display: flex;
 }
