@@ -262,6 +262,7 @@ a {
 }
 .blog-flex .left-blog {
   width: 70%;
+  margin-right: 30px;
 }
 .blog-flex .left-blog img {
   width: 100%;
@@ -273,6 +274,52 @@ a {
   width: 30%;
   margin-left: 20px;
 }
-.blog-flex .right-blog .twitter-posts {
+.blog-flex .right-blog .twt-posts {
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+.blog-flex .right-blog h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.blog-flex .right-blog .date {
+  color: #0088CC;
+}
+.blog-flex .right-blog .twt-info {
+  padding: 0 15px;
+}
+.blog-flex .right-blog .tags {
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+.blog-flex .right-blog .tags a {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.blog-flex .right-blog .facebook a {
+  color: #0088CC;
+  border-left: 3px solid #bfbfbf;
+  padding: 10px;
+}
+.blog-flex .right-blog .twt-text {
+  padding-bottom: 10px;
+}
+.blog-flex .right-blog .twt-posts {
   display: flex;
+}
+.blog-flex .right-blog .photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog-flex .right-blog .photo {
+  width: calc(100% / 3);
+}
+.blog-flex .right-blog .photo img {
+  width: 100%;
 }
