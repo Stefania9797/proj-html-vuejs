@@ -81,6 +81,7 @@ footer{
     .footer-top{
         font-size: 12px;
         display: flex;
+        padding-bottom: 60px;
         padding-top: 60px;
         .about-footer{
             p{
@@ -126,7 +127,7 @@ footer{
             color: $text-color;
         }
         .categories-footer{
-            max-width: 20%;
+            max-width: 25%;
             .link-footer{
                 display: flex;
                 flex-wrap: wrap;
@@ -144,5 +145,32 @@ footer{
     }
     .footer-bottom{
         background-color: $footer-darker-bg;
+        color: $text-color;
+        font-size: 10px;
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        .footer-logo{
+            padding: 10px 0;
+            img{
+                width: 70px;
+                filter: brightness(0.5);
+
+            }
+        }
+        .copyright{
+            margin-left: 20px;
+        }
+        .links{
+            display: flex;
+            margin-left: auto;
+            .link{
+                padding-left: 10px;
+            }
+            a{
+                color:$text-color;
+            }
+        }
     }
 }

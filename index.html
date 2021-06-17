@@ -748,9 +748,11 @@
                     <div class="copyright">
                         <span>&copy; Copyright 2020. All rights reserved</span>
                     </div>
-                    <div class="links" v-for="footerLink in footerLinks">
-                        <i class="fas fa-angle-right"></i>
-                        <a href="">{{footerLink.link}}</a>
+                    <div class="links">
+                        <div class="link" v-for="footerLink in footerLinks">
+                            <i class="fas fa-angle-right"></i>
+                            <a href="">{{footerLink.link}}</a>
+                        </div>
                     </div>
                 </div>
             </div>

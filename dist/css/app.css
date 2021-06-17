@@ -436,6 +436,7 @@ footer h5 {
 footer .footer-top {
   font-size: 12px;
   display: flex;
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 footer .footer-top .about-footer p {
@@ -476,7 +477,7 @@ footer .footer-top .recent-posts-date {
   color: #777777;
 }
 footer .footer-top .categories-footer {
-  max-width: 20%;
+  max-width: 25%;
 }
 footer .footer-top .categories-footer .link-footer {
   display: flex;
@@ -493,4 +494,30 @@ footer .footer-top .categories-footer a {
 }
 footer .footer-bottom {
   background-color: #1c2023;
+  color: #777777;
+  font-size: 10px;
+}
+footer .footer-bottom .container {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .footer-logo {
+  padding: 10px 0;
+}
+footer .footer-bottom .footer-logo img {
+  width: 70px;
+  filter: brightness(0.5);
+}
+footer .footer-bottom .copyright {
+  margin-left: 20px;
+}
+footer .footer-bottom .links {
+  display: flex;
+  margin-left: auto;
+}
+footer .footer-bottom .links .link {
+  padding-left: 10px;
+}
+footer .footer-bottom .links a {
+  color: #777777;
 }
