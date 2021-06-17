@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -97,6 +97,10 @@ a {
   display: inline-block;
   padding: 5px;
   margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  font-weight: 600;
+  font-size: 12px;
 }
 .article h3 {
   color: white;
@@ -164,7 +168,7 @@ a {
   margin-left: 10px;
 }
 .posts .post-text h4 {
-  font-weight: 100;
+  font-weight: 300;
 }
 .posts .post-text span {
   color: #777777;
@@ -193,6 +197,8 @@ a {
   display: inline-block;
   padding: 5px;
   margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 12px;
 }
 .posts .featured-article .article-info {
   z-index: 1;
@@ -230,11 +236,12 @@ a {
   margin-top: 20px;
 }
 .third-section .buttons {
-  padding: 20px 20px 20px 0;
+  padding: 30px 20px 30px 0;
   display: flex;
   align-items: center;
 }
 .third-section .buttons .button {
+  margin: 0 15px;
   width: calc(100% / 6);
   text-align: center;
 }
@@ -273,6 +280,9 @@ a {
 }
 .blog-flex .left-blog .blog-img {
   display: flex;
+}
+.blog-flex .left-blog .second-row {
+  margin: -4px 0;
 }
 .blog-flex .left-blog .blog-text {
   margin-left: 20px;
@@ -381,20 +391,6 @@ a {
   width: 100%;
 }
 
-.pages {
-  text-align: end;
-}
-.pages a {
-  color: #0088CC;
-  padding: 6px;
-  margin: -3px;
-  border: 2px solid #ededed;
-}
-.pages a:hover {
-  color: white;
-  background-color: #0074AD;
-}
-
 footer {
   position: relative;
   background-color: #212529;
@@ -492,6 +488,10 @@ footer .footer-top .categories-footer a {
   text-transform: uppercase;
   font-weight: 600;
 }
+footer .footer-top .categories-footer a:hover {
+  background-color: white;
+  color: black;
+}
 footer .footer-bottom {
   background-color: #1c2023;
   color: #777777;
@@ -520,4 +520,18 @@ footer .footer-bottom .links .link {
 }
 footer .footer-bottom .links a {
   color: #777777;
+}
+
+.pages {
+  text-align: end;
+}
+.pages a {
+  color: #0088CC;
+  padding: 6px;
+  margin: -3px;
+  border: 2px solid #ededed;
+}
+.pages a:hover {
+  color: white;
+  background-color: #0074AD;
 }

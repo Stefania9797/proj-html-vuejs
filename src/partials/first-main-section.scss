@@ -29,7 +29,7 @@
         }
     }
     span{
-        @include category-style
+        @include category-style;
     }
     h3{
         color: white;
