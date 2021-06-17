@@ -431,8 +431,10 @@ footer h5 {
   color: white;
   font-weight: 600;
   padding-bottom: 20px;
+  font-size: 14px;
 }
 footer .footer-top {
+  font-size: 12px;
   display: flex;
   padding-top: 60px;
 }
@@ -442,7 +444,6 @@ footer .footer-top .about-footer p {
 }
 footer .footer-top .about-footer a {
   color: white;
-  font-size: 10px;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -459,7 +460,6 @@ footer .footer-top .recent-posts-footer .recent-content h4 {
 }
 footer .footer-top .recent-posts-footer .recent-content .footer-date {
   padding: 10px 0;
-  font-size: 13px;
 }
 footer .footer-top .recent-posts-footer img {
   width: 80%;
@@ -474,7 +474,6 @@ footer .footer-top .recent-comment p i, footer .footer-top .recent-comment p .ar
 footer .footer-top .recent-posts-date {
   padding-bottom: 30px;
   color: #777777;
-  font-size: 12px;
 }
 footer .footer-top .categories-footer {
   max-width: 20%;
@@ -490,6 +489,8 @@ footer .footer-top .categories-footer a {
   margin: 5px;
   border-radius: 3px;
   text-transform: uppercase;
-  font-size: 13px;
   font-weight: 600;
+}
+footer .footer-bottom {
+  background-color: #1c2023;
 }

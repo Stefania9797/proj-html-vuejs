@@ -740,6 +740,20 @@
                 </div>
                 <!-- / footer top -->
             </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-logo">
+                        <img src="./dist/img/logo-footer.png" alt="">
+                    </div>
+                    <div class="copyright">
+                        <span>&copy; Copyright 2020. All rights reserved</span>
+                    </div>
+                    <div class="links" v-for="footerLink in footerLinks">
+                        <i class="fas fa-angle-right"></i>
+                        <a href="">{{footerLink.link}}</a>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- /Footer -->
     </div>
