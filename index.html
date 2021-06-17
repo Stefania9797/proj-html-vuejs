@@ -686,11 +686,15 @@
                             <p>
                                 <i class="fas fa-angle-right"></i>
                                 <span class="name">
-                                    John doe
+                                    <strong>
+                                        John doe
+                                    </strong>
                                 </span>
                                 commented on 
                                 <span class="art-title-footer">
-                                    Lorem ipsum dolor sit.
+                                    <strong>
+                                        Lorem ipsum dolor sit.
+                                    </strong>
                                 </span>
                             </p>
                             <!-- / comment details -->
@@ -705,11 +709,15 @@
                             <p>
                                 <i class="fas fa-angle-right"></i>
                                 <span class="name">
-                                    John doe
+                                    <strong>
+                                        John doe
+                                    </strong>
                                 </span>
                                 commented on 
                                 <span class="art-title-footer">
-                                    Lorem ipsum dolor sit.
+                                    <strong>
+                                        Lorem ipsum dolor sit.
+                                    </strong>
                                 </span>
                             </p>
                             <!-- / comment details -->
@@ -722,19 +730,12 @@
                     </div>
                     <div class="categories-footer">
                         <h5>Categories</h5>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
-                        <a href="">lorem</a>
+                        <div class="links-footer">
+                            <!-- categories with vue.js -->
+                            <a href="" v-for="footerCategory in footerCategories">
+                                {{footerCategory.category}}
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <!-- / footer top -->
